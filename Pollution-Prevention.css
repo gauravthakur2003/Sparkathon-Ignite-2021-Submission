@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: lightblue;
+    margin-left:0px;
+}
+
+.a{
+    margin-left: 30%;
+}
+.b{
+    margin-left :48%;
+    margin-right: auto;
+}
+
+.bag{
+    background-color: lightblue;
+}
+
+.Signup_Form{
+     background-color: aliceblue;
+     text-align: left;
+     width: 300px;
+     padding: 32px; 
+     margin-left: 30%;
+     margin-right: auto;
+}
+.inputlabel{
+    margin: 0;
+    margin-bottom: 3px;
+    margin-top: 12px;
+    
+}
+textarea{
+    resize: none;
+}
+
+.inputarea{
+    width:100%;
+}
+
+.alert{
+    text-align: center;
+    color: white;
+    background-color: blueviolet;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: none;
+}
+
+
+
+

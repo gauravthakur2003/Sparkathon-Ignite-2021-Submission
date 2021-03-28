@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Pollution-Prevention.css">
+</head>
+<body>
+
+    <h2 style="text-align: center; margin-top: 10%;">All time slots are within 9-10 am.</h2>
+    <h1 style="text-align: center;">Your assigned time slot is <span id ="time_slot"></span></h1>
+
+<div class="b"><button onclick="logout()">Log Out</button></div>
+<script src="main.js"></script>
+
+<script>
+    var time_slots = ["9:00","9:15","9:30","10:00"];
+    var k = Math.floor(Math.random() * 4);
+    var time = time_slots[k];
+    console.log(k);
+    document.getElementById("time_slot").innerHTML= time;
+</script>
+
+
+</body>
+</html>
